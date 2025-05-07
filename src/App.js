@@ -2,12 +2,15 @@ import React from "react";
 
 const App = () => {
   return (
-    <div className=" h-screen w-full">
-      <div className="flex items-center border-1  ">
-        <div className="bg-[#1AEBB7] h-screen w-2/5 flex justify-center items-center ">
-          <img src="/lion.png" className="max-w[400px] max-h-[400px] z-1" />
+    <div className="relative  w-full">
+      <div className="flex items-center shadow-md shadow-[#B0AAAA] m-10 ">
+        <div className="bg-[#1AEBB7]  w-2/5 flex justify-center h-screen items-center ">
+          <img src="/lion.png" className="max-w[400px] max-h-[400px] " />
         </div>
-        <div className=" bg-white flex flex-col w-3/5  h-screen justify-center">
+        <div
+          className=" bg-white flex flex-col w-3/5 
+        justify-center h-screen "
+        >
           <form className="flex flex-col space-y-4 p-10">
             <h2 className="text-center text-3xl font-semibold text-[#000000B2]">
               LOGIN
