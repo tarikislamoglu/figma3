@@ -2,7 +2,7 @@ import React from "react";
 
 const App = () => {
   return (
-    <div className="relative  w-full">
+    <div className="w-full">
       <div className="flex items-center shadow-md shadow-[#B0AAAA] m-10 ">
         <div className="bg-[#1AEBB7]  w-2/5 flex justify-center h-screen items-center ">
           <img src="/lion.png" className="max-w[400px] max-h-[400px] " />
