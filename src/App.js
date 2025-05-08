@@ -2,14 +2,17 @@ import React from "react";
 
 const App = () => {
   return (
-    <div className="w-full">
-      <div className="flex items-center shadow-md shadow-[#B0AAAA] m-10 ">
-        <div className="bg-[#1AEBB7]  w-2/5 flex justify-center h-screen items-center ">
+    <div className="w-full h-screen relative">
+      <div className="w-2/5 h-screen bg-[#1AEBB7]"></div>
+      <div className="w-3/5 h-screen bg-white"></div>
+
+      <div className="flex items-center shadow-2xl shadow-[#B0AAAA] absolute left-0 top-0 right-0  bottom-0 z-1 m-10">
+        <div className="  w-2/5 flex justify-center h-screen items-center ">
           <img src="/lion.png" className="max-w[400px] max-h-[400px] " />
         </div>
         <div
           className=" bg-white flex flex-col w-3/5 
-        justify-center h-screen "
+        justify-center "
         >
           <form className="flex flex-col space-y-4 p-10">
             <h2 className="text-center text-3xl font-semibold text-[#000000B2]">
