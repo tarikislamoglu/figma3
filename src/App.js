@@ -6,7 +6,7 @@ const App = () => {
       <div className="w-2/5 h-screen bg-[#1AEBB7]"></div>
       <div className="w-3/5 h-screen bg-white"></div>
 
-      <div className="flex items-center shadow-2xl shadow-[#B0AAAA] absolute left-0 top-0 right-0  bottom-0 z-1 m-10">
+      <div className="flex items-center shadow-md shadow-[#B0AAAA] absolute left-0 top-0 right-0  bottom-0 z-1 m-10">
         <div className="  w-2/5 flex justify-center h-screen items-center ">
           <img src="/lion.png" className="max-w[400px] max-h-[400px] " />
         </div>
